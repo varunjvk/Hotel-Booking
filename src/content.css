@@ -1,0 +1,48 @@
+.home-page {
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: "Roboto", sans-serif;
+    background-color: #f0f0f0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.hotel-photo {
+    width: 100%;
+    height: auto;
+}
+
+.hotel-title {
+    text-align: center;
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    padding: 20px;
+    background-image: linear-gradient(to right, #0099ff, #66ccff);
+}
+
+.hotel-description {
+    margin: 20px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.hotel-location {
+    margin: 20px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.hotel-location::before {
+    content: "";
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    background-image: url;
+}
+
+.hotel-price {
+    margin: 20px;
+    font-size: 28px;
+    color: #0099ff;
+}
